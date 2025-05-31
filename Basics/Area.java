@@ -8,7 +8,7 @@ public class Area {
     float r = sc.nextFloat();
     float area = 3.14f *r*r;
    System.out.println( "area of circle is" + " " +  String.format("%.2f",area));
-        
+        sc.close();
     }
     
     
